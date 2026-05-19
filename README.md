@@ -15,12 +15,12 @@ The project supports:
 
 # 🚀 Features
 
-# ✅ Real-time crop monitoring
-# ✅ Automatic water level detection
-# ✅ Smart irrigation logic
-# ✅ Crop stage identification
-# ✅ Continuous sensor monitoring
-# ✅ Low-cost smart farming solution
+- ✅ Real-time crop monitoring
+- ✅ Automatic water level detection
+- ✅ Smart irrigation logic
+- ✅ Crop stage identification
+- ✅ Continuous sensor monitoring
+- ✅ Low-cost smart farming solution
 
 ---
 
@@ -39,9 +39,9 @@ The project supports:
 
 # 💻 Software Requirements
 
-# Python 3
-# Raspberry Pi OS
-# RPi.GPIO Library
+- Python 3
+- Raspberry Pi OS
+- RPi.GPIO Library
 
 ---
 
@@ -101,19 +101,19 @@ The project supports:
 
 # ⚙️ Working Principle
 
-# 1️⃣ The ultrasonic sensor measures the distance between the sensor and crop surface.
+- 1️⃣ The ultrasonic sensor measures the distance between the sensor and crop surface.
 
-# 2️⃣ Based on the measured distance, the crop stage is identified.
+- 2️⃣ Based on the measured distance, the crop stage is identified.
 
-# 3️⃣ The water sensor checks the presence of water.
+- 3️⃣ The water sensor checks the presence of water.
 
-# 4️⃣ If water level is LOW:
+- 4️⃣ If water level is LOW:
 - Motor Status → ON
 
-# 5️⃣ If water level is HIGH:
+- 5️⃣ If water level is HIGH:
 - Motor Status → OFF
 
-# 6️⃣ The complete field status is displayed continuously on the terminal.
+- 6️⃣ The complete field status is displayed continuously on the terminal.
 
 ---
 
@@ -129,7 +129,7 @@ The project supports:
 
 # 🧪 Installation Steps
 
-# 1️⃣ Update Raspberry Pi
+- 1️⃣ Update Raspberry Pi
 
 ```bash
 sudo apt update
@@ -138,7 +138,7 @@ sudo apt upgrade
 
 ---
 
-# 2️⃣ Install Python GPIO Library
+- 2️⃣ Install Python GPIO Library
 
 ```bash
 pip install RPi.GPIO
@@ -146,7 +146,7 @@ pip install RPi.GPIO
 
 ---
 
-# 3️⃣ Clone Repository
+- 3️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/your-username/Smart-Paddy-Crop-Management.git
@@ -154,7 +154,7 @@ git clone https://github.com/your-username/Smart-Paddy-Crop-Management.git
 
 ---
 
-# 4️⃣ Open Project Folder
+- 4️⃣ Open Project Folder
 
 ```bash
 cd Smart-Paddy-Crop-Management
@@ -162,7 +162,7 @@ cd Smart-Paddy-Crop-Management
 
 ---
 
-# 📚 Required Libraries
+- 📚 Required Libraries
 
 ```python
 import RPi.GPIO as GPIO
@@ -171,7 +171,7 @@ import time
 
 ---
 
-# ▶️ How to Run the Project
+- ▶️ How to Run the Project
 
 ```bash
 python3 paddy_crop.py
@@ -179,7 +179,7 @@ python3 paddy_crop.py
 
 ---
 
-# 🔄 Project Flowchart
+- 🔄 Project Flowchart
 
 ```text
         START
@@ -219,7 +219,7 @@ python3 paddy_crop.py
 
 ---
 
-# 📷 Sample Output
+- 📷 Sample Output
 
 ```text
 Paddy Field Status
@@ -240,31 +240,31 @@ Motor Status  : ON
 
 # 🌾 Applications
 
-# Smart Agriculture
-# Precision Farming
-# Automatic Irrigation System
-# Water Conservation
-# Crop Growth Monitoring
+- Smart Agriculture
+- Precision Farming
+- Automatic Irrigation System
+- Water Conservation
+- Crop Growth Monitoring
 
 ---
 
 # ✅ Advantages
 
-# Reduces water wastage
-# Supports smart irrigation
-# Easy to implement
-# Low-cost agriculture solution
-# Real-time monitoring
+- Reduces water wastage
+- Supports smart irrigation
+- Easy to implement
+- Low-cost agriculture solution
+- Real-time monitoring
 
 ---
 
 # 🔮 Future Improvements
 
-# IoT Cloud Integration
-# Mobile App Monitoring
-# SMS/Email Alerts
-# AI-based Crop Analysis
-# Weather Prediction Integration
+- IoT Cloud Integration
+- Mobile App Monitoring
+- SMS/Email Alerts
+- AI-based Crop Analysis
+- Weather Prediction Integration
 
 ---
 
@@ -275,6 +275,3 @@ The Smart Paddy Crop Management System provides an efficient and low-cost smart 
 The project helps monitor crop stages and water levels automatically, improving irrigation management and supporting sustainable agriculture practices.
 
 
-# ⭐ GitHub
-
-# If you like this project, give it a ⭐ on GitHub!
