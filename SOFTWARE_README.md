@@ -10,8 +10,6 @@ The system helps farmers monitor field conditions and receive intelligent farmin
 - AI analysis
 - Rice cultivation PDF knowledge
 
----
-
 # 🚀 Features
 
 - 🌡️ Real-time Temperature Monitoring
@@ -29,8 +27,6 @@ The system helps farmers monitor field conditions and receive intelligent farmin
 - 🧠 RAG (Retrieval Augmented Generation)
 - 👨‍🌾 Farmer-Friendly Interface
 
----
-
 # 🛠️ Technologies Used
 
 - 🐍 Python
@@ -41,8 +37,6 @@ The system helps farmers monitor field conditions and receive intelligent farmin
 - 📄 PyPDF
 - 🔐 python-dotenv
 
----
-
 # 💻 Software Requirements
 
 - Python 3.x
@@ -51,8 +45,6 @@ The system helps farmers monitor field conditions and receive intelligent farmin
 - ChromaDB
 - PyPDF
 - python-dotenv
-
----
 
 # 📥 Input Parameters
 
@@ -63,8 +55,6 @@ The system helps farmers monitor field conditions and receive intelligent farmin
 - 📏 Plant Height
 - 🌾 Crop Age
 - ❓ Additional Farmer Queries
-
----
 
 # 📤 Output Parameters
 
@@ -79,8 +69,6 @@ The system helps farmers monitor field conditions and receive intelligent farmin
 - ✅ Fertilizer Suggestion
 - ✅ AI-Based Farmer Guidance
 
----
-
 # 🌾 Rice Growth Stages
 
 - 🌱 Germination Stage
@@ -89,8 +77,6 @@ The system helps farmers monitor field conditions and receive intelligent farmin
 - 🌼 Reproductive Stage
 - 🌸 Flowering Stage
 - 🚜 Harvest Stage
-
----
 
 # ⚙️ Working Principle
 
@@ -102,8 +88,6 @@ The system helps farmers monitor field conditions and receive intelligent farmin
 6. 🧠 AI generates intelligent farming advisory
 7. 👨‍🌾 Farmer receives recommendations
 
----
-
 # 🤖 AI Integration
 
 The project uses Gemini AI along with Rice Science PDF documents to provide intelligent farming recommendations based on:
@@ -113,8 +97,6 @@ The project uses Gemini AI along with Rice Science PDF documents to provide inte
 - 📚 Rice cultivation knowledge
 - ❓ Farmer queries
 
----
-
 # 🧠 RAG Implementation
 
 The project uses Retrieval Augmented Generation (RAG):
@@ -122,8 +104,6 @@ The project uses Retrieval Augmented Generation (RAG):
 - 📄 Rice PDF documents are stored in ChromaDB
 - 🔍 Relevant information is retrieved based on farmer queries
 - 🤖 AI generates accurate responses using retrieved knowledge
-
----
 
 # 📱 Applications
 
@@ -134,8 +114,6 @@ The project uses Retrieval Augmented Generation (RAG):
 - 🦠 Disease Monitoring
 - 🤖 Smart Farming Advisory
 
----
-
 # ✅ Advantages
 
 - 👨‍🌾 Easy for farmers to use
@@ -145,8 +123,6 @@ The project uses Retrieval Augmented Generation (RAG):
 - 🌱 Improves crop management
 - 📈 Supports better yield prediction
 - 📚 Uses scientific rice cultivation knowledge
-
----
 
 # 🔮 Future Enhancements
 
@@ -159,8 +135,6 @@ The project uses Retrieval Augmented Generation (RAG):
 - 📷 Disease Detection using Camera
 - 📩 SMS/WhatsApp Alerts
 - 🌐 IoT Cloud Integration
-
----
 
 # 🔄 Project Flow
 
@@ -179,8 +153,6 @@ The project uses Retrieval Augmented Generation (RAG):
       ↓
 👨‍🌾 Farmer
 ```
-
----
 
 # 🎯 Conclusion
 
