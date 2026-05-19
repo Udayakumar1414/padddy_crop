@@ -11,8 +11,6 @@ The project supports:
 - Water conservation
 - Automatic irrigation monitoring
 
----
-
 # 🚀 Features
 
 - ✅ Real-time crop monitoring
@@ -21,8 +19,6 @@ The project supports:
 - ✅ Crop stage identification
 - ✅ Continuous sensor monitoring
 - ✅ Low-cost smart farming solution
-
----
 
 # 🛠️ Hardware Components Used
 
@@ -35,15 +31,11 @@ The project supports:
 | Jumper Wires | As Required |
 | Power Supply | 1 |
 
----
-
 # 💻 Software Requirements
 
 - Python 3
 - Raspberry Pi OS
 - RPi.GPIO Library
-
----
 
 # 🧱 Block Diagram / Architecture
 
@@ -74,8 +66,6 @@ The project supports:
                 +----------------+
 ```
 
----
-
 # 🔌 Pin Connections
 
 # HC-SR04 Ultrasonic Sensor
@@ -87,8 +77,6 @@ The project supports:
 | TRIG | GPIO 23 |
 | ECHO | GPIO 24 |
 
----
-
 # Water Sensor
 
 | Sensor Pin | Raspberry Pi GPIO |
@@ -96,8 +84,6 @@ The project supports:
 | VCC | 3.3V |
 | GND | GND |
 | OUT | GPIO 17 |
-
----
 
 # ⚙️ Working Principle
 
@@ -115,8 +101,6 @@ The project supports:
 
 - 6️⃣ The complete field status is displayed continuously on the terminal.
 
----
-
 # 📏 Crop Stage Classification
 
 | Distance Range | Crop Stage |
@@ -124,8 +108,6 @@ The project supports:
 | < 10 cm | GERMINATIVE |
 | 10 – 30 cm | VEGETATIVE |
 | > 30 cm | TILLERING |
-
----
 
 # 🧪 Installation Steps
 
@@ -136,15 +118,11 @@ sudo apt update
 sudo apt upgrade
 ```
 
----
-
 - 2️⃣ Install Python GPIO Library
 
 ```bash
 pip install RPi.GPIO
 ```
-
----
 
 - 3️⃣ Clone Repository
 
@@ -152,16 +130,11 @@ pip install RPi.GPIO
 git clone https://github.com/your-username/Smart-Paddy-Crop-Management.git
 ```
 
----
-
 - 4️⃣ Open Project Folder
 
 ```bash
 cd Smart-Paddy-Crop-Management
 ```
-
----
-
 - 📚 Required Libraries
 
 ```python
@@ -169,15 +142,11 @@ import RPi.GPIO as GPIO
 import time
 ```
 
----
-
 - ▶️ How to Run the Project
 
 ```bash
 python3 paddy_crop.py
 ```
-
----
 
 - 🔄 Project Flowchart
 
@@ -217,8 +186,6 @@ python3 paddy_crop.py
        Repeat
 ```
 
----
-
 - 📷 Sample Output
 
 ```text
@@ -235,9 +202,6 @@ Motor Status  : ON
 
 ================================
 ```
-
----
-
 # 🌾 Applications
 
 - Smart Agriculture
@@ -245,8 +209,6 @@ Motor Status  : ON
 - Automatic Irrigation System
 - Water Conservation
 - Crop Growth Monitoring
-
----
 
 # ✅ Advantages
 
@@ -256,8 +218,6 @@ Motor Status  : ON
 - Low-cost agriculture solution
 - Real-time monitoring
 
----
-
 # 🔮 Future Improvements
 
 - IoT Cloud Integration
@@ -265,8 +225,6 @@ Motor Status  : ON
 - SMS/Email Alerts
 - AI-based Crop Analysis
 - Weather Prediction Integration
-
----
 
 # 📌 Conclusion
 
